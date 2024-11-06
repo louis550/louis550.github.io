@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>essai HTML</title>
+   <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+      
+    <body>
+       
+    <nav>
+       <h6 class="essai2"></h6>
+    </nav>    
+      <main>   
+            
+            <h1>Les differents types de languages informatiques:</h1>
+            <h2>Le language HTML :</h2>
+      <p>Le language html n'est pas <span class="ma-classe"> un language de programation</span>. Il sert à creer des sites web.</p>
+       
+        <li class="ma-classe3"><iframe width="400" height="215" src="https://www.youtube.com/embed/tTPskQlzg5A?si=f9a_ojuA85HhcNog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </li>
+         
+          <h2>Le language CSS :</h2>
+      <p>Le language CSS sert a styliser le contenue de la page. Il vient se completer avec le language CSS.</p>
+      <li class="ma-classe3"><iframe width="400" height="215" src="https://www.youtube.com/embed/PXCwfiuxAWU?si=_h5LkZMaaV6YpIJe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+
+         
+
+      </main> 
+       
+     
+      
+
+    </body>
+
+    <footer>
+      <p class="essai"><a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language" target="_blank"><img src="imges/imgs-html.webp" width="70" height="70"></a>
+      <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade" target="_blank"><img src="imges/imgs-css.webp" width="70" height="70"></a>
+      </p>
+          
+    </footer>
+ 
+
+
+</html>
