@@ -1,0 +1,183 @@
+
+body{
+     background-image: url(imges/fond-noir2.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+     
+}
+  
+
+
+
+
+h1{
+    color:rgb(31, 131, 131);  
+    font-size: 50px;
+    text-shadow: 0px 0px 10px aquamarine,
+                0px 0px 20px aquamarine,
+                0px 0px 25px aquamarine;
+    font-family: arial;
+    font-style: italic;
+    font-weight:1000;
+    text-align:center;
+    background-image: url(https://th.bing.com/th/id/R.f5771a85739c27900e6b85d862f378be?rik=wPXeVu6wtZ8GFg&pid=ImgRaw&r=0);
+    margin-left:20px;
+    margin-right:20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(50%);
+    position: static;
+    
+                
+}
+ .ma-classe {
+    color:darkred;
+    font-weight: 1300;
+    
+
+ }
+
+ h2{
+    color:rgb(9, 140, 173);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight:900;
+    margin-left: 100px;
+
+
+ }
+ 
+
+p{
+    color:darkcyan;
+    font-family: arial;
+    font-weight: 750;
+ 
+}
+.ma-classe2 {
+     color: aqua;
+     font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+.ma-classe3{
+    margin-left: 250px;
+    color:black;
+}
+
+a:hover {
+    transition: all 0.5s ease-in-out;
+    opacity:0.5;
+    transform:scale:1.5;
+    cursor:default;
+}
+
+.essai{
+    text-align: center;
+}
+
+.essai2:after {
+    content:"";
+    font-weight: 1200;
+    font-family:arial;
+    font-size: 35px;
+    animation-name: animatingtext ;
+    animation-duration:2.3s;
+    animation-iteration-count: infinite;
+    letter-spacing: 1px;
+    color:yellow;
+    text-shadow: 0 0 13px #fff900;
+
+
+}
+@keyframes animatingtext {
+    0%   {content: "H" }
+    20%  { content: "He" }
+    40%  { content: "Hel" }
+    60%  { content: "Hell" }
+    80%  {content: "Hello" }
+    100% { content: "Hello!" }
+
+}
+
+
+.div1{
+    background-color: royalblue;
+    padding-left:45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    margin-left:1400px;
+}
+
+.div2 {
+    background-color: darkcyan;
+    border-radius: 70px;
+
+
+
+
+}
+
+/* Styles pour le loader */
+#loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#loader p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #3498db;
+}
+
+#loader::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid yellow;
+    animation: spin 1s linear infinite;
+    box-shadow: 0 0 30px yellow;
+}
+
+/* Animation de rotation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Effet hover */
+#loader:hover::before {
+    border-top: 5px solid #e74c3c; /* Change la couleur de la bordure supérieure au survol */
+    animation: spin 0.5s linear infinite; /* Accélère l'animation au survol */
+}
+
+#clock {
+    font-size: 2em;
+    color: #3498db;
+    font-family: impact;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-shadow: 0 0 20px #3498db;
+}
+
+
+
+.footer {
+    color: #455a64;
+}
+
+
